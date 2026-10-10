@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+
+    int x=10,y=20,z=30;
+    printf("The value of x,y,z before rotating \n x=%d \n y=%d \n z=%d \n",x,y,z);
+
+    int temp ;
+
+    temp =x;
+    x=y;
+    y=z;
+    z=temp;
+
+    printf("The value of x,y,z after rotating \n x=%d \n y=%d \n z=%d \n",x,y,z);
+
+
+    return 0;
+}
